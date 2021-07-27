@@ -7,10 +7,11 @@ pipeline {
                 echo 'Hello Jenkins'
             }
         }
-        stage('Check branch') {
+        stage('Check branch and build') {
             steps {
-                echo "Build number: " + ${env.BUILD_NUMBER}
-                echo "Git branch: " + ${GIT_BRANCH}
+                echo "Build number: ${env.BUILD_NUMBER}"
+                echo "Git branch: ${env.GIT_BRANCH}"
+                echo ${env.GIT_BRANCH}
             }
         }
         stage('Goodbye') {
