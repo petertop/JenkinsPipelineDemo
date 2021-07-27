@@ -9,8 +9,8 @@ pipeline {
         }
         stage('Check branch') {
             steps {
-                echo 'Build number: ${env.BUILD_NUMBER}'
-                echo 'Git branch ${GIT_BRANCH}'
+                echo "Build number: " + ${env.BUILD_NUMBER}
+                echo "Git branch: " + ${GIT_BRANCH}
             }
         }
         stage('Goodbye') {
