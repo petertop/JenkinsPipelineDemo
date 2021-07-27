@@ -10,6 +10,7 @@ pipeline {
         stage('Goodbye') {
             steps {
                 echo 'Goodbye World'
+                echo 'sdfsf'
                 echo 'Hello from Visual Studio'
             }
         }
