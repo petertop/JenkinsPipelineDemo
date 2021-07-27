@@ -11,13 +11,12 @@ pipeline {
             steps {
                 echo "Build number: ${env.BUILD_NUMBER}"
                 echo "Git branch: ${env.GIT_BRANCH}"
-                echo ${env.GIT_BRANCH}
+                echo "${env.GIT_BRANCH}"
             }
         }
         stage('Goodbye') {
             steps {
                 echo 'Goodbye World'
-                echo 'sdfsf'
                 echo 'Hello from Visual Studio'
             }
         }
