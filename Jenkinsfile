@@ -23,7 +23,6 @@ pipeline {
             steps {
                 echo 'Goodbye World'
                 echo 'Hello from Visual Studio'
-                echo 'Hello from Visual Studio once more'
             }
         }
         stage('Add New Stage') {
