@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello Jenkins!!!!'
+                echo 'Hello Jenkins!!!!????'
             }
         }
         stage('Check branch and build') {
@@ -18,6 +18,7 @@ pipeline {
             steps {
                 echo 'Goodbye World'
                 echo 'Hello from Visual Studio'
+                echo 'Hello from Visual Studio once more'
             }
         }
     }
