@@ -26,5 +26,10 @@ pipeline {
                 echo 'Hello from Visual Studio once more'
             }
         }
+        stage('Add New Stage') {
+            steps {
+                echo 'Beer++'
+            }
+        }
     }
 }
