@@ -30,15 +30,12 @@ pipeline {
             steps {
                 echo 'Goodbye World'
                 echo 'Hello from Visual Studio'
-<<<<<<< HEAD
                 echo 'Delete'
-=======
             }
         }
         stage('Add New Stage') {
             steps {
                 echo 'Beer++'
->>>>>>> development
             }
         }
     }
