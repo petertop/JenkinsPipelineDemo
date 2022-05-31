@@ -30,6 +30,7 @@ pipeline {
             steps {
                 echo 'Goodbye World'
                 echo 'Hello from Visual Studio'
+                echo 'Delete'
             }
         }
     }
