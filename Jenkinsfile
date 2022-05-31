@@ -30,7 +30,7 @@ pipeline {
             steps {
                 echo 'Goodbye World'
                 echo 'Hello from Visual Studio'
-                echo 'Delete 2'
+                echo 'Delete 22'
             }
         }
         stage('Add New Stage') {
